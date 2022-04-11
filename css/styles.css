@@ -1,0 +1,159 @@
+@charset "UTF-8";
+html {
+  height: 100%;
+  scroll-padding-top: calc(4.5rem - 1px);
+  font-family: 'RobotoCondensed';
+}
+
+.btn-social {
+  border-radius: 100%;
+  border: 2px solid #716565;
+  display: inline-flex;
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.8rem;
+}
+
+.divImage {
+  padding: 0 20px 0 30px;
+}
+
+.navImage {
+  width: 40px;
+  height: 40px;
+}
+
+.navTitle {
+  font-family: 'RobotoCondensed';
+  font-weight: bold !important;
+  font-size: 41.2px !important;
+  line-height: 48px;
+  color: #846219 !important;
+}
+
+.navSubtitle {
+  font-family: 'RobotoCondensed';
+  font-size: 16.2px !important;
+  line-height: 19px;
+  color: #846219;
+  letter-spacing: 5.4px;
+}
+
+.navListMenu {
+  font-family: 'RobotoCondensed';
+  font-size: 16.2px;
+  line-height: 19px;
+  letter-spacing: 5.4px;
+  color: #846219 !important;
+}
+
+.navListMenu:hover{
+  text-decoration: underline;
+}
+
+.nav-item {
+  padding: 0 50px 0 50px;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.firstRow {
+  background-color:#E9E9E9;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 80px;
+  padding-left: 170px;
+  text-align: left;
+}
+
+.secondRow {
+  background-color:#506FA9; 
+  align-items: center;
+  padding-top: 75px;
+  padding-bottom: 80px;
+  padding-left: 170px;
+  text-align: left;
+}
+
+.firstMainTitle {
+  font-size: 65px;
+  line-height: 70px;
+  text-align: center;
+  color: #716565;
+}
+
+.secondMainTitle {
+  font-size: 65px;
+  line-height: 70px;
+  text-align: left;
+}
+.secondMainText {
+  margin-top: 30px;
+  font-size: 35px;
+  line-height: 56px;
+  text-align: left;
+}
+
+.firstMainImage {
+  opacity: 0.8;
+  text-align: left;
+}
+
+.secondMainImage {
+  opacity: 0.6;
+}
+
+@media (max-width: 992px) {
+  .titleSymbol {
+    display: none !important;
+  }
+
+  .navbar {
+    flex-direction: row-reverse;
+  }
+
+  .firstRow {
+    padding-left: 0px;
+  }
+
+  .secondRow {
+    padding-left: 0px;
+  }
+}
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #E9E9E9;
+  color: #716565;
+}
+
+.followIcons {
+  color: #716565;
+}
+
+.copyright {
+  background-color: #E9E9E9;
+  color: #716565;
+}
+
+.navbar-light .navbar-toggler {
+  border: none !important;
+  color: #E2E0B8;
+}
+
+button:focus {
+  outline: #ffff !important;
+}
